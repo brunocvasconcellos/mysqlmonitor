@@ -1,2 +1,2 @@
 # mysqlmonitor
-Script de monitoramento de replicação MySql escrito em PHP.
+Script de monitoramento de replicação MySql escrito em PHP, que envia email com resultados.
