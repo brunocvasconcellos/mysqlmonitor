@@ -1,0 +1,21 @@
+<?php
+function conecta($host,$usuario, $senha,$banco,$porta) { 
+	
+	$pdo = new PDO(
+	    'mysql:host='.$host.';port='.$porta.'dbname='.$banco.'',
+	    ''.$usuario.'',
+	    ''.$senha.''
+	);
+
+return $pdo;
+}
+
+$stHost="192.168.0.2";
+$stUsuario="bruno";
+$stSenha="";
+$stBanco="paracambi_06082014";
+$inPorta=5432;
+$con = conecta($stHost,$stUsuario, $stSenha,$stBanco,$inPorta); 
+
+
+?>
